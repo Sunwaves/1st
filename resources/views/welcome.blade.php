@@ -3,23 +3,24 @@
     <head>
         
         
-        <title>First Project</title>
-
+        <title>Mae Project</title>
+    
+    <title>Switch Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    
+   
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <!-- CSS -->
         <link rel="stylesheet" href="css/app.css">
         
         <!-- STYLES -->
-      
-        
-
-        
+          
     </head>
     
-    <body class="bg-fixed" style="background-image:url(https://images.wallpapersden.com/image/download/programming-coding-language_bGhpbm6UmZqaraWkpJRmbmdlrWZlbWU.jpg)">
+    <body class="bg-fixed" style="background-image:url(https://images.wallpapersden.com/image/download/netflix-dark-everything-is-connected_bGdta2iUmZqaraWkpJRmbmdlrWZlbWU.jpg)">
        
-    
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
@@ -34,6 +35,7 @@
                 </div>
             @endif
        
-       
+            
+   
     </body>
 </html>
